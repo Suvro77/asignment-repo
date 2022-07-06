@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("images/donation0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .text-area h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.header .text-area p {
+  color: #fff;
+  padding: 30px 60px;
+}
+.header .text-area button {
+  color: #fff;
+  background-color: #ff5959;
+  padding: 12px 23px;
+  border-radius: 5px;
+}
+
+.donate {
+  height: 10vh;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.donate h1 {
+  font-size: 30px;
+}
+
+.donate p {
+  color: grey;
+  padding-top: 20px;
+  line-height: 22px;
+  padding: 20px;
+}
+
+.d-plan {
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+}
+
+.d-plan h1 {
+  font-size: 28px;
+}
+.d-plan p {
+  color: rgb(17, 5, 5);
+}
+.d-plan .row{
+  width: 20%;
+  margin: 5%;
+  float: left;
+  position: relative;
+}
+
+.d-plan .row h3{
+    position: absolute;
+    top: 150px;
+}
+.d-plan .row p{
+    position: absolute;
+    top: 190px;
+}
+.d-plan .row .food-col {
+  height: 360px;
+  width: 352px;
+  color: #000;
+  background-color: #4d9299;
+  border-radius: 5px;
+}
+
+.d-plan .row .shelter-col {
+  height: 360px;
+  width: 352px;
+  color: #000;
+  background-color: #ff5959;
+  border-radius: 5px;
+}
+.d-plan .row .edu-col {
+   
+  height: 360px;
+  width: 352px;
+  color: #000;
+  background-color: #fff4d6;
+  border-radius: 5px;
+}
+
+.footer{
+    height: 177px;
+    width: 100vw;
+    color: #fff;
+    background-color: #000;
+    line-height: 177px;
+    text-align: center;
+    justify-content: center;
+    clear: both;
+}
